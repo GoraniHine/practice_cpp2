@@ -1,10 +1,10 @@
-***STL = Standard Template Library***  
+**STL = Standard Template Library**   
 C++ 표준 라이브러리의 일부  
 미리 만들어진 템플릿 기반 자료구조와 알고리즘 모음  
 이름 그대로 표준화(Standard) + 템플릿(Template) 사용 + 라이브러리(Library)  
 즉, 코드를 직접 구현하지 않아도 다양한 자료구조와 알고리즘을 바로 사용할 수 있는 도구  
 
-***버퍼(Buffer) 개념***  
+**버퍼(Buffer) 개념**  
 cout은 출력 버퍼에 데이터를 모아 두었다가 한 번에 출력  
 \n만 쓰면 버퍼가 꽉 찼거나 종료될 때 한 번에 출력  
 endl 쓰면 매번 강제로 flush, 반복 10만 번이면 10만 번 flush → 느려짐  
