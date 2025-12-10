@@ -1,6 +1,6 @@
-# 12789번 코드 문제점 요약
+12789번 코드 문제점 요약
 
-## 1️⃣ pop이 연속으로 되어야 하는데 한 번만 처리
+에러원인1: pop이 연속으로 되어야 하는데 한 번만 처리
 
 ```cpp
 else if(arr2[check] == now)
@@ -33,7 +33,7 @@ while(check >= 0 && arr2[check] == now)
 }
 ```
 
-2️⃣ check가 -1인 상태에서 스택 접근 → 런타임 에러 가능
+에러원인2: check가 -1인 상태에서 스택 접근 → 런타임 에러 가능
 ```cpp
 check = -1;
 else if(arr2[check] > arr1[i] && arr2[check] != now)
@@ -55,5 +55,6 @@ else if(check == -1 || arr2[check] > arr1[i])
 
 }
 ```
+
 
 
