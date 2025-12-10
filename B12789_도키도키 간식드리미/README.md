@@ -10,7 +10,7 @@ else if(arr2[check] == now)
     now++;
     continue;
 }
-
+```
 
 문제:
 
@@ -31,6 +31,7 @@ while(check >= 0 && arr2[check] == now)
     check--;
     now++;
 }
+```
 
 2️⃣ check가 -1인 상태에서 스택 접근 → 런타임 에러 가능
 else if(arr2[check] > arr1[i] && arr2[check] != now)
@@ -49,4 +50,6 @@ else if(check == -1 || arr2[check] > arr1[i])
 {
     check++;
     arr2[check] = arr1[i];
+
 }
+```
