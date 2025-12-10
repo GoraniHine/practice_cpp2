@@ -34,8 +34,9 @@ while(check >= 0 && arr2[check] == now)
 ```
 
 2️⃣ check가 -1인 상태에서 스택 접근 → 런타임 에러 가능
+```cpp
 else if(arr2[check] > arr1[i] && arr2[check] != now)
-
+```
 
 문제:
 
@@ -53,3 +54,4 @@ else if(check == -1 || arr2[check] > arr1[i])
 
 }
 ```
+
